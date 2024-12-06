@@ -267,6 +267,12 @@ function sendOrder(){
               console.log(orderInfo);
               sendOrderAPI(orderInfo);
         }
+
+        customerName.value = '';
+        customerPhone.value = '';
+        customerEmail.value = '';
+        customerAddress.value = '';
+        tradeWay.value = '';
         
     })
 
